@@ -92,6 +92,12 @@ border-radius: 5px;
   color: #EEE2DE;
 }
 
+.hero-social img{
+  height: 1.8rem;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
 .tech-box{
   display: flex;
   width: 100%;
@@ -443,12 +449,12 @@ border-radius: 5px;
 }
 
 .certificate{
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
 .cert-org{
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 @media (max-width: 1024px) {
