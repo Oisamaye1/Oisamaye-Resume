@@ -426,7 +426,7 @@ border-radius: 5px;
 .cert-box{
   display: grid;
   width: 100%;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
 }
 
@@ -485,6 +485,9 @@ border-radius: 5px;
     order: 1;
     grid-column: span 4;
     text-align: center;
+  }
+  .cert-box{
+    grid-template-columns: 1fr 1fr;
   }
 }
 
